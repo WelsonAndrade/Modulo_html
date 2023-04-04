@@ -9,10 +9,15 @@
 <body>
     <h1>Formulário de cadastro</h1>
     <form>
-    <input type="text" placeholder="Nome"/><br />
-    <input type="text" placeholder="E-mail"/><br />
-    <input type="text" placeholder="Senha"/>
-    <br />
+        <label>Nome</label>
+        <input type="text" name="nome" id="nome"/>
+        <br />
+        <label for="email">Seu e-mail</label>
+        <input id="email" type="email" />
+        <br />
+        <label for="password">Sua senha</label>
+        <input id="password" type="password"/>
+        <br />
     <button type="submit">
         Cadastrar
     </button>
